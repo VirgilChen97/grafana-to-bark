@@ -16,10 +16,10 @@ def handle_post(path):
         "body": message,
         "title": title
     }
-    iconUrl = os.environ("ICON_URL")
+    iconUrl = os.environ["ICON_URL"]
     if iconUrl:
         payload["icon"] = iconUrl
-    group = os.environ("GROUP")
+    group = os.environ["GROUP"]
     if group:
         payload["group"] = group
 
