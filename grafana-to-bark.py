@@ -30,4 +30,4 @@ def handle_post(path):
     return jsonify(response.json()), response.status_code
 
 if __name__ == '__main__':
-    app.run(port=8888, debug=True)
+    app.run(port=8888)
