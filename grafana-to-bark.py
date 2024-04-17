@@ -1,4 +1,4 @@
-host='0.0.0.0'import requests
+import requests
 from flask import Flask, request, jsonify
 import os
 
